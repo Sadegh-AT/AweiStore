@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sadegh-AT/AweiStore/issues"
   },
-  "homepage": "https://github.com/Sadegh-AT/AweiStore#readme"
+  "homepage": "https://github.com/Sadegh-AT/AweiStore#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
