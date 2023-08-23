@@ -1,0 +1,20 @@
+{
+  "name": "aweistore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadegh-AT/AweiStore.git"
+  },
+  "keywords": [],
+  "author": "SadeghAT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sadegh-AT/AweiStore/issues"
+  },
+  "homepage": "https://github.com/Sadegh-AT/AweiStore#readme"
+}
