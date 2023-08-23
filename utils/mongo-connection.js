@@ -3,11 +3,11 @@ const { MongoClient } = require("mongodb");
 class ConnectToMongoDB {
   #DB_URL = "mongodb://0.0.0.0:27017/";
   #db = null;
-
+  #DB_Name = "awei-store";
   async #connect() {
     try {
       let client = new MongoClient(this.#DB_URL);
-      let db = client.db("productList");
+      let db = client.db(this.#DB_Name);
       return db;
     } catch (error) {
       console.log(error.message);
@@ -31,7 +31,7 @@ class ConnectToMongoDB {
       if (this.#db) {
         this.#db.close();
       } else {
-        console.log("Cnat Close");
+        console.log("Cant Close");
       }
     } catch (error) {
       console.log(error.message);
